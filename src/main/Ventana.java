@@ -20,16 +20,17 @@ public class Ventana extends JFrame
 		setTitle("Login");
 		setLocationRelativeTo(null); // Establece la localizacion realiva a otro objeto, si es null va al centro
 		
-		Toolkit tk = Toolkit.getDefaultToolkit();
-		Image icono = tk.getImage("src/img/iconoPrueba.png");
-		setIconImage(icono);
-		
-		MiPanel panelito = new MiPanel();
-		add(panelito);
-		
-		JFrame ventana2 = new JFrame();
-		
-		setVisible(true);
+		//JFrame ventana2 = new JFrame();
+
+        Toolkit tk = Toolkit.getDefaultToolkit();
+        Image icono = tk.getImage("src/img/iconoPrueba.png");
+        setIconImage(icono);
+
+        MiPanel panelPrincipal = new MiPanel();
+        add(panelPrincipal);
+
+        setVisible(true);
+
 		//validate();
 		//repaint();
 	}
