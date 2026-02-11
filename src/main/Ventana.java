@@ -17,7 +17,7 @@ public class Ventana extends JFrame
 		setLocation(100,100); //localizacion
 		//setBounds(100,100,800,500); //combina el tamanio y localizacion en una linea
 		setResizable(false);
-		setTitle("Mi Ventana");
+		setTitle("Login");
 		setLocationRelativeTo(null); // Establece la localizacion realiva a otro objeto, si es null va al centro
 		
 		Toolkit tk = Toolkit.getDefaultToolkit();
